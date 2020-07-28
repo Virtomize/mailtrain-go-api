@@ -7,6 +7,7 @@
 [![Build Status](https://travis-ci.org/virtomize/mailtrain-go-api.svg?branch=master)](https://travis-ci.org/virtomize/mailtrain-go-api)
 [![Built with Mage](https://magefile.org/badge.svg)](https://magefile.org)
 
+Implements the [mailtrain API](https://github.com/Mailtrain-org/mailtrain).
 
 ## Installation
 
@@ -22,7 +23,18 @@ If not follow [these instructions](https://nats.io/documentation/tutorials/go-in
 
 ### Simple example
 
-tbd
+```
+  api, err := gomailtrain.NewAPI("https://mailtrain.example.com", "token")
+  if err != nil {
+    // handle error
+  }
+
+  // read all subscribed lists for an email
+  lists, err := api.GetListsByEmail("mail@example.com")
+  if err != nil {
+    // handle error
+  }
+```
 
 ### Advanced examples
 
