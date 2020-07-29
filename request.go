@@ -18,6 +18,7 @@ func (a *API) Request(req *http.Request) ([]byte, error) {
 	if err != nil {
 		return nil, err
 	}
+	defer resp.Body.Close()
 
 	Debug(fmt.Sprintf("Status Code: %d", resp.StatusCode))
 

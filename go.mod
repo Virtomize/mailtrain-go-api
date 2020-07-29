@@ -2,4 +2,7 @@ module github.com/virtomize/mailtrain-go-api
 
 go 1.14
 
-require github.com/stretchr/testify v1.6.1
+require (
+	github.com/magefile/mage v1.10.0
+	github.com/stretchr/testify v1.6.1
+)
