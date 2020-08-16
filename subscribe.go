@@ -14,6 +14,7 @@ import (
 type Subscription struct {
 	CID                 string `json:"-"`
 	Email               string `json:"email"`
+	Name                string `json:"merge_name,omitempty"`
 	FirstName           string `json:"merge_first_name,omitempty"`
 	LastName            string `json:"merge_last_name,omitempty"`
 	Timezone            string `json:"timezone"`
