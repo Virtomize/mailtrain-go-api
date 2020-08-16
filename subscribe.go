@@ -14,8 +14,8 @@ import (
 type Subscription struct {
 	CID                 string `json:"-"`
 	Email               string `json:"email"`
-	FirstName           string `json:"first_name,omitempty"`
-	LastName            string `json:"last_name,omitempty"`
+	FirstName           string `json:"merge_first_name,omitempty"`
+	LastName            string `json:"merge_last_name,omitempty"`
 	Timezone            string `json:"timezone"`
 	ForceSubscribe      bool   `json:"force_subscribe"`
 	RequireConfirmation bool   `json:"require_confirmation"`
