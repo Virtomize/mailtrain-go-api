@@ -4,7 +4,7 @@
 [![GoDoc](https://img.shields.io/badge/godoc-reference-green.svg)](https://godoc.org/github.com/virtomize/mailtrain-go-api)
 [![Go Report Card](https://goreportcard.com/badge/github.com/virtomize/mailtrain-go-api)](https://goreportcard.com/report/github.com/virtomize/mailtrain-go-api)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/virtomize/mailtrain-go-api/blob/master/LICENSE)
-[![Build Status](https://travis-ci.com/virtomize/mailtrain-go-api.svg?branch=master)](https://travis-ci.org/virtomize/mailtrain-go-api)
+[![Build Status](https://travis-ci.com/virtomize/mailtrain-go-api.svg?branch=master)](https://travis-ci.com/virtomize/mailtrain-go-api)
 [![Built with Mage](https://magefile.com/badge.svg)](https://magefile.org)
 
 Implements the [mailtrain API](https://github.com/Mailtrain-org/mailtrain).
